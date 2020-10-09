@@ -3,7 +3,6 @@ import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 
 import rootReducer from './../reducers';
-import userData from './../data/userData.js';
 
 const initialState = {
   HistoryData: {
@@ -17,7 +16,6 @@ const initialState = {
     Data: []
   },
   Search: {
-    UserData: userData,
     FormatedData: []
   },
   routing: []
